@@ -1,12 +1,20 @@
 /*
 Напишите коллбек для array.filter, который отбирает все числа больше num
  */
-export function higherThan(num) {}
+export function higherThan(num) {
+    return function () {
+        Element > num;
+    };
+}
 
 /*
 Напишите коллбек для array.filter, который отбирает из массива все строки, включающие в себя substr. Регистр важен.
  */
-export function hasSubstring(substr) {}
+export function hasSubstring(substr) {
+    return function () {
+        Element === substr;
+    };
+}
 
 /*
 Напишите функцию `multiply(num)`, которая работает вот так:
